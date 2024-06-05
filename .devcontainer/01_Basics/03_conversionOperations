@@ -1,11 +1,16 @@
-let rollNo="11";
-console.log(typeof rollNo);
-let convert=Number(rollNo)
-console.log(typeof convert)
-console.log(convert)
+// let rollNo="11";
+// console.log(typeof rollNo);
+// let convert=Number(rollNo)
+// console.log(typeof convert)
+// console.log(convert)
 
 /*
 1=>true;
 0=>false;
 ""=>false;
 "adii"=>true*/
+/*****************oparations**************/
+let value=3;
+let negvalue=-value;
+console.log(negvalue)
+
