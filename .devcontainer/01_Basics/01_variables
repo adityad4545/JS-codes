@@ -1,0 +1,11 @@
+let userName="aditya";
+const id=4545;
+var passWord="aditya";
+let userState;//is the variable is directly defined without storing the values then it is undefined in javascript
+city="pune";
+city="mumbai";
+userName="adii";
+passWord="adii";
+console.table([city,id,passWord,userName,city,userState]);//this is another way to printing the variables inform of tables
+/*prefer not use var 
+beacause issue in block scope and functional scope*/
