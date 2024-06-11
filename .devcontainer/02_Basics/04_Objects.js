@@ -40,3 +40,15 @@ console.log(Object.values(cricInfo1));
 console.log(Object.keys(cricInfo1));
 
 console.log(cricInfo2.hasOwnProperty('isOpeningBatsman'))
+
+const cource={
+    courceName : "js in hindi",
+    price : "999Rs",
+    courceInstructor : "hitesh choudhari",
+    courceInstructor : "code with harry",
+    courceInstructor : "shraddha khapra",
+
+}
+const{courceInstructor : instructor}=cource; // Another way of fetching the values from objects
+console.log(instructor);
+console.log(cource.courceInstructor)
