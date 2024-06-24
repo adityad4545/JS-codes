@@ -37,3 +37,9 @@ function cricket(india){
         }
 }
 cricket(cricketers);
+console.log("\n\n\n\n\n\n\n\n\n");
+
+function callArray(...call1){
+    return call1;
+}
+console.log(callArray("aditya","yash","ajay"));
