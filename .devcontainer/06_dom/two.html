@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        .day{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color : blue;
+
+        }
+        </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">thursday</div>
+        <div class="day">friday</div>
+        <div class="day">saturday</div>
+    </div>
+</body>
+<script>
+    //const parent=document.querySelector(".parent");
+    //console.log(parent1);
+    //console.log(parent1.children);
+    //console.log(parent1.children[0]); -->
+    //for(let i=0;i<parent.children.length;i++)
+    //{
+     //   console.log(parent.children[i].innerHTML);
+    //}
+    const div1=document.createElement("div");
+    console.log(div1);
+    div1.className='div1';
+    div1.id=Math.round(Math.random()*10+1);
+    div1.setAttribute('title','chai aur code with javascript')
+    div1.style.backgroundColor='red';
+    const node=document.createTextNode('chai aur code');
+    div1.appendChild(node);
+    document.body.appendChild(div1);
+</script>
+</html>

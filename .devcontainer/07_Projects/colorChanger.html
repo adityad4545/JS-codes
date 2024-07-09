@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        .colors{
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            gap : 15px;
+            padding-top: 15rem;
+        }
+        .spans{
+            height : 10rem;
+            width : 10rem;
+            border-radius: 5px;
+        }
+        #red{
+            background-color:red;
+        }
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+
+        }
+        #aqua{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="colors">
+    <span id="red" class="spans"></span>
+    <span id="green" class="spans"></span>
+    <span id="blue" class="spans"></span>
+    <span id="aqua" class="spans"></span>
+    </div>
+    
+</body>
+<script>
+    let select=document.querySelectorAll('.spans');
+    let select1=document.querySelector('body')
+    let choice=1;;
+    select.forEach((button)=>{
+        button.addEventListener('click',(e)=>{
+            switch(e.target.id){
+                case 'red' :select1.style.backgroundColor=e.target.id;
+                            break;
+                case 'green':select1.style.backgroundColor=e.target.id;
+                            break;
+                case 'blue':select1.style.backgroundColor=e.target.id;
+                            break;
+                case 'aqua':select1.style.backgroundColor=e.target.id;
+                            break;
+                            
+                         
+            }
+})
+        
+
+})
+</script>
+</html>
