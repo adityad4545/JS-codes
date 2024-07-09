@@ -34,7 +34,12 @@
     </div>
 </body>
 <script>
-    const date=new Date();
-    console.log(date.toLocaleTimeString)
+    
+    clock=document.querySelector('.clock');
+    
+    setInterval(function(){
+        let date1=new Date();
+        clock.innerHTML=date1.toLocaleTimeString();
+    },1000);
 </script>
 </html>
